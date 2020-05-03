@@ -1,3 +1,6 @@
-/home/souissi/Desktop/job-micro-service/micro-service-notification-back-side/src/main/java/com/microservice/notification/job/Runner.java
-/home/souissi/Desktop/job-micro-service/micro-service-notification-back-side/src/main/java/com/microservice/notification/job/Main.java
-/home/souissi/Desktop/job-micro-service/micro-service-notification-back-side/src/main/java/com/microservice/notification/utils/Sender.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\Back\microservice\src\main\java\com\notifiation\microservice\AdresseMail\dao\AdresseMailRepository.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\Back\microservice\src\main\java\com\notifiation\microservice\AdresseMail\services\AdresseMailService.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\Back\microservice\src\main\java\com\notifiation\microservice\AdresseMail\models\AdresseMail.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\Back\microservice\src\main\java\com\notifiation\microservice\AdresseMail\dto\AdresseMailDto.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\Back\microservice\src\main\java\com\notifiation\microservice\AdresseMail\services\AdresseMailServiceImpl.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\Back\microservice\src\main\java\com\notifiation\microservice\MicroserviceApplication.java

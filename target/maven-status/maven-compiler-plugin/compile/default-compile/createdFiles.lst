@@ -1,3 +1,8 @@
-com/microservice/notification/job/Runner.class
-com/microservice/notification/job/Main.class
-com/microservice/notification/utils/Sender.class
+com\notifiation\microservice\AdresseMail\models\AdresseMail$AdresseMailBuilder.class
+com\notifiation\microservice\AdresseMail\models\AdresseMail.class
+com\notifiation\microservice\AdresseMail\services\AdresseMailService.class
+com\notifiation\microservice\MicroserviceApplication.class
+com\notifiation\microservice\AdresseMail\dao\AdresseMailRepository.class
+com\notifiation\microservice\AdresseMail\dto\AdresseMailDto.class
+com\notifiation\microservice\AdresseMail\services\AdresseMailServiceImpl.class
+com\notifiation\microservice\MicroserviceApplication$1.class

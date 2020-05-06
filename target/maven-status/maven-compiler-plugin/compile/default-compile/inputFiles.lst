@@ -1,6 +1,3 @@
-D:\ESGI\1annee\S2\Microservices\Projet\Projet\Back\microservice\src\main\java\com\notifiation\microservice\AdresseMail\dao\AdresseMailRepository.java
-D:\ESGI\1annee\S2\Microservices\Projet\Projet\Back\microservice\src\main\java\com\notifiation\microservice\AdresseMail\services\AdresseMailService.java
-D:\ESGI\1annee\S2\Microservices\Projet\Projet\Back\microservice\src\main\java\com\notifiation\microservice\AdresseMail\models\AdresseMail.java
-D:\ESGI\1annee\S2\Microservices\Projet\Projet\Back\microservice\src\main\java\com\notifiation\microservice\AdresseMail\dto\AdresseMailDto.java
-D:\ESGI\1annee\S2\Microservices\Projet\Projet\Back\microservice\src\main\java\com\notifiation\microservice\AdresseMail\services\AdresseMailServiceImpl.java
-D:\ESGI\1annee\S2\Microservices\Projet\Projet\Back\microservice\src\main\java\com\notifiation\microservice\MicroserviceApplication.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\back\src\main\java\ci\microservice\notification\utils\Sender.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\back\src\main\java\ci\microservice\notification\NotificationApplication.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\back\src\main\java\ci\microservice\notification\job\Runner.java

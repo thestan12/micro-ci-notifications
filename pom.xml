@@ -8,10 +8,10 @@
         <version>2.2.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.notifiation</groupId>
-    <artifactId>microservice</artifactId>
+    <groupId>ci.microservice</groupId>
+    <artifactId>notification</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>microservice</name>
+    <name>notification</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -151,6 +151,5 @@
             </build>
         </profile>
     </profiles>
-
 
 </project>

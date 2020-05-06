@@ -31,7 +31,7 @@ public class NotificationApplication {
                 adresseMailRepository.deleteAll();
                 adresseMailRepository.saveAll(
                         List.of(
-                                new AdresseMail("mouna89@gmail.com", "HICHRI Mouna", "minimino", "0769061956")
+                                new AdresseMail("mouna89@gmail.com")
                         )
                 );
 

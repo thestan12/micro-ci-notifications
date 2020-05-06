@@ -20,18 +20,16 @@ public class AdresseMail {
     String idMail;
     @Setter
     String adresse;
-    @Setter
+ /*   @Setter
     String name;
     @Setter
     String userName;
     @Setter
-    String phone;
+    String phone;*/
 
 
-    public AdresseMail(String adresse, String name, String userName, String phone) {
+    public AdresseMail(String adresse) {
         this.adresse = adresse;
-        this.name = name;
-        this.userName = userName;
-        this.phone = phone;
+
     }
 }

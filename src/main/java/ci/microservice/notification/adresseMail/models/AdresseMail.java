@@ -20,6 +20,8 @@ public class AdresseMail {
     String idMail;
     @Setter
     String adresse;
+    @Setter
+    String password;
  /*   @Setter
     String name;
     @Setter

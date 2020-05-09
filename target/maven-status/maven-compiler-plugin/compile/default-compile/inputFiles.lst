@@ -1,3 +1,11 @@
-D:\ESGI\1annee\S2\Microservices\Projet\Projet\back\src\main\java\ci\microservice\notification\utils\Sender.java
-D:\ESGI\1annee\S2\Microservices\Projet\Projet\back\src\main\java\ci\microservice\notification\NotificationApplication.java
-D:\ESGI\1annee\S2\Microservices\Projet\Projet\back\src\main\java\ci\microservice\notification\job\Runner.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\backMouna\micro-ci-notifications\src\main\java\ci\microservice\notification\adresseMail\models\PassewordValidation.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\backMouna\micro-ci-notifications\src\main\java\ci\microservice\notification\adresseMail\dao\AdresseMailRepository.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\backMouna\micro-ci-notifications\src\main\java\ci\microservice\notification\utils\Sender.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\backMouna\micro-ci-notifications\src\main\java\ci\microservice\notification\adresseMail\dto\AdresseMailDto.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\backMouna\micro-ci-notifications\src\main\java\ci\microservice\notification\adresseMail\services\AdresseMailService.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\backMouna\micro-ci-notifications\src\main\java\ci\microservice\notification\adresseMail\models\AdresseMail.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\backMouna\micro-ci-notifications\src\main\java\ci\microservice\notification\adresseMail\services\AdresseMailServiceImpl.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\backMouna\micro-ci-notifications\src\main\java\ci\microservice\notification\adresseMail\controller\adresseMailController.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\backMouna\micro-ci-notifications\src\main\java\ci\microservice\notification\job\Runner.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\backMouna\micro-ci-notifications\src\main\java\ci\microservice\notification\NotificationApplication.java
+D:\ESGI\1annee\S2\Microservices\Projet\Projet\backMouna\micro-ci-notifications\src\main\java\ci\microservice\notification\adresseMail\models\Passeword.java

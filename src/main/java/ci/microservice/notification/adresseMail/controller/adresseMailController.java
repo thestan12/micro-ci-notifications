@@ -10,21 +10,27 @@ import java.util.List;
 
 
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/notification")
 public class adresseMailController {
 
     @Autowired
     AdresseMailService adresseMailService;
 
+    @CrossOrigin(origins="http://localhost:4200")
+    @GetMapping("/test")
+    public String sayGreeting() {
+        return "Hello Mouna";
 
+    }
 
-    @CrossOrigin
+    //@CrossOrigin
     @PostMapping("/address")
     public AdresseMail addAdresseMail(@RequestBody AdresseMail mail) {
         return adresseMailService.addAdressesMail(mail);
     }
 
-    @CrossOrigin
+    //@CrossOrigin
     @GetMapping("/addresses")
     public List<AdresseMail> getAdresseMail() {
         return adresseMailService.getAdressesMail();

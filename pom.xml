@@ -19,6 +19,39 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.amqp</groupId>
+            <artifactId>spring-rabbit</artifactId>
+            <version>2.2.6.RELEASE</version>
+        </dependency>
+
+      <!--  <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+            <version>2.0.1.RELEASE</version>
+        </dependency>-->
+        <!--  <dependency>
+              <groupId>org.springframework.cloud</groupId>
+              <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+              <version>2.0.1.RELEASE</version>
+          </dependency>
+          <dependency>
+              <groupId>org.springframework.cloud</groupId>
+              <artifactId>spring-cloud-stream-binder-rabbit</artifactId>
+              <version>2.0.1.RELEASE</version>
+          </dependency>-->
+        <!--  <dependency>
+              <groupId>com.rabbitmq</groupId>
+              <artifactId>amqp-client</artifactId>
+              <version>3.3.4</version>
+          </dependency>-->
+
+        <!--   <dependency>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-starter-amqp</artifactId>
+           </dependency>
+   -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
@@ -79,6 +112,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
+ <!--       <dependency>
+            <groupId>org.springframework.amqp</groupId>
+            <artifactId>spring-rabbit-test</artifactId>
+            <scope>test</scope>
+        </dependency>-->
     </dependencies>
     <build>
         <plugins>

@@ -2,9 +2,11 @@ ci\microservice\notification\job\Runner.class
 ci\microservice\notification\NotificationApplication.class
 ci\microservice\notification\adresseMail\models\AdresseMail.class
 ci\microservice\notification\adresseMail\controller\adresseMailController.class
-ci\microservice\notification\NotificationApplication$1.class
 ci\microservice\notification\adresseMail\services\AdresseMailService.class
 ci\microservice\notification\adresseMail\models\AdresseMail$AdresseMailBuilder.class
+ci\microservice\notification\amqp\AmqpConfig.class
+ci\microservice\notification\amqp\Sender.class
+ci\microservice\notification\amqp\Listener.class
 ci\microservice\notification\adresseMail\dao\AdresseMailRepository.class
 ci\microservice\notification\adresseMail\dto\AdresseMailDto.class
 ci\microservice\notification\adresseMail\services\AdresseMailServiceImpl.class

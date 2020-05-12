@@ -1,0 +1,30 @@
+<!--
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                      http://www.springframework.org/schema/beans/spring-beans
+                      http://www.springframework.org/schema/rabbit
+                      http://www.springframework.org/schema/rabbit/spring-rabbit-1.0.xsd">
+    <rabbit:connection-factory id="connectionFactory"
+                               host="chinook.rmq.cloudamqp.com"
+                               virtual-host="fhnnluqg"
+                               username="fhnnluqg"
+                               password="eBUG9yxdq0m5mBb_lmT7SWBXdQX_fZZb"/>
+    <rabbit:admin connection-factory="connectionFactory" />
+    &lt;!&ndash; Create queue &ndash;&gt;
+    <rabbit:queue id="mySpringQueue" auto-delete="false" name="mySpringQueue" />
+    &lt;!&ndash; create myExchange and bind mySpringQueue to myExchange&ndash;&gt;
+    <rabbit:topic-exchange id="myExchange" name="myExchange">
+        <rabbit:bindings>
+            <rabbit:binding queue="mySpringQueue" pattern="my.*"></rabbit:binding>
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+    &lt;!&ndash; instantiate listener &ndash;&gt;
+    <bean id="myListener" class="ci.microservice.notification.amqp.Listener" />
+
+    <rabbit:listener-container id="myListenerContainer" connection-factory="connectionFactory">
+        <rabbit:listener ref="myListener" queues="mySpringQueue" />
+    </rabbit:listener-container>
+</beans>-->

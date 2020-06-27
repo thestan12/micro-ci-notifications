@@ -7,7 +7,6 @@ import java.util.List;
 
 public interface AdresseMailService {
 
-
     List<AdresseMail> getAdressesMail();
 
     AdresseMail addAdressesMail(AdresseMail adresseMail);

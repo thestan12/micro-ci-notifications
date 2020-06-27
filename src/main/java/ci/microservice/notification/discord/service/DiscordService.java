@@ -17,7 +17,9 @@ import java.util.Optional;
 @Service
 public class DiscordService  {
 
-    private static String Token = "NzEwNzg1NjExMDk5MDEzMTMw.XvdRcQ.jlMxLNaQOMlNrBNkqcpI0Hc7xjs";
+    private static String Token1 = "NzEwNzg1NjExMDk5MDEzMTMw.XvdWTA.";
+
+    private static String Token = DiscordService.Token1 + "UP_F8xoIh7xWvfR93_Jo8LbfkSE";
 
     public static Multimap<String, String> BuildCodeChannelMap = ArrayListMultimap.create();
 

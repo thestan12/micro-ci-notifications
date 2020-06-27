@@ -32,6 +32,9 @@ public class AdresseMail {
 
     public AdresseMail(String adresse) {
         this.adresse = adresse;
+    }
 
+    public String getAdresse() {
+        return this.adresse;
     }
 }

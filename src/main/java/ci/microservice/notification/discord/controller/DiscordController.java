@@ -3,6 +3,7 @@ package ci.microservice.notification.discord.controller;
 import ci.microservice.notification.adresseMail.models.AdresseMail;
 import ci.microservice.notification.adresseMail.services.AdresseMailService;
 import ci.microservice.notification.discord.service.DiscordService;
+import ci.microservice.notification.discord.service.DiscordServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,7 +15,7 @@ import java.util.List;
 public class DiscordController {
 
     @Autowired
-    DiscordService discordService;
+    DiscordServiceImpl discordService;
 
     @CrossOrigin(origins="http://localhost:4200")
     @GetMapping("/test")
@@ -26,7 +27,8 @@ public class DiscordController {
     @GetMapping("/build/add")
     @ResponseBody
     public String addBuild(@RequestParam String id) {
-        DiscordService.notify(id);
+        DiscordServiceImpl.notify(id);
+
         return "ID: " + id;
     }
 

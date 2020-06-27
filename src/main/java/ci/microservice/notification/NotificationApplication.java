@@ -4,6 +4,7 @@ import ci.microservice.notification.adresseMail.dao.AdresseMailRepository;
 import ci.microservice.notification.adresseMail.models.AdresseMail;
 
 import ci.microservice.notification.discord.service.DiscordService;
+import ci.microservice.notification.discord.service.DiscordServiceImpl;
 import ci.microservice.notification.job.Runner;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.Queue;
@@ -34,7 +35,7 @@ public class NotificationApplication {
     AdresseMailRepository adresseMailRepository;
 
     public static void main(String[] args) {
-        DiscordService service = new DiscordService();
+        DiscordService service = new DiscordServiceImpl();
         service.discordConnexion();
 
         SpringApplication.run(NotificationApplication.class, args);

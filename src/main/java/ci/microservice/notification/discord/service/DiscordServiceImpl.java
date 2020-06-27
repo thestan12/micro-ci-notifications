@@ -24,9 +24,6 @@ import java.util.stream.Collectors;
 @Service
 public class DiscordServiceImpl implements DiscordService {
 
-    @Autowired
-    RequestRepository requestRepository;
-
     private static String Token1 = "NzEwNzg1NjExMDk5MDEzMTMw.";
 
     private static String Token = DiscordServiceImpl.Token1 +  "Xvdbjg.Pt6qty5Aj9M5oF1XZ0D5_g2aNVI";
@@ -44,7 +41,7 @@ public class DiscordServiceImpl implements DiscordService {
 
         api.addMessageCreateListener(event -> {
             if(event.getChannel().getMessagesAfterAsStream(event.getMessage()).count() > 0) return;
-            System.out.println(api.getCachedMessages().size());
+
             String msg = event.getMessageContent();
 
             String response = null;

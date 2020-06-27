@@ -20,10 +20,15 @@ MAINTAINER Jonas Hecht
 VOLUME /tmp
  
 # Add Spring Boot app.jar to Container
-COPY --from=0 "/cxfbootsimple/target/notification-*-SNAPSHOT.jar" app.jar
+# COPY --from=0 "/cxfbootsimple/target/notification-*-SNAPSHOT.jar" app.jar
  
 # Fire up our Spring Boot app by default
-CMD [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /app.jar" ]
+# CMD [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /app.jar" ]
 
+
+COPY --from=0 /cxfbootsimple/target/notification-*-SNAPSHOT.jar /usr/local/lib/app.jar
+
+EXPOSE 8080
+ENTRYPOINT ["java","-jar","/usr/local/lib/app.jar"]
 
 

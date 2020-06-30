@@ -1,6 +1,5 @@
 package ci.microservice.notification.discord.repository;
 
-import ci.microservice.notification.customer.models.Customer;
 import ci.microservice.notification.discord.models.DiscordRequest;
 import org.springframework.data.mongodb.repository.MongoRepository;
 

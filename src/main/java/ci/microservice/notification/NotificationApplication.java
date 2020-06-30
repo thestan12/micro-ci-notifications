@@ -3,8 +3,7 @@ package ci.microservice.notification;
 import ci.microservice.notification.adresseMail.dao.AdresseMailRepository;
 import ci.microservice.notification.adresseMail.models.AdresseMail;
 
-import ci.microservice.notification.customer.models.Customer;
-import ci.microservice.notification.customer.repository.CustomerRepository;
+
 import ci.microservice.notification.discord.models.DiscordRequest;
 import ci.microservice.notification.discord.repository.DiscordRepository;
 import ci.microservice.notification.job.Runner;

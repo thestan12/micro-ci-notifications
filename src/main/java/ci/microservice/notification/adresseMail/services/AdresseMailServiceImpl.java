@@ -13,10 +13,8 @@ public class AdresseMailServiceImpl implements AdresseMailService {
     @Autowired
     AdresseMailRepository adresseMailRepository;
 
-
     @Override
     public List<AdresseMail> getAdressesMail() {
-
         return adresseMailRepository.findAll();
     }
 
@@ -26,6 +24,5 @@ public class AdresseMailServiceImpl implements AdresseMailService {
         adresse = adresseMailRepository.save(adresse);
         return adresse;
     }
-
 
 }

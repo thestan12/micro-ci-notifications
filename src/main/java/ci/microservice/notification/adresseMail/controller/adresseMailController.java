@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping("/notification")
+@RequestMapping("/addresses")
 public class adresseMailController {
 
     @Autowired
@@ -21,7 +21,6 @@ public class adresseMailController {
     @GetMapping("/test")
     public String sayGreeting() {
         return "Hello Mouna";
-
     }
 
     //@CrossOrigin

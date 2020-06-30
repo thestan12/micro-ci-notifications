@@ -1,37 +1,32 @@
 package ci.microservice.notification.discord.controller;
 
 import ci.microservice.notification.adresseMail.models.AdresseMail;
-import ci.microservice.notification.adresseMail.services.AdresseMailService;
+import ci.microservice.notification.discord.models.DiscordRequest;
+import ci.microservice.notification.discord.service.BotComponent;
 import ci.microservice.notification.discord.service.DiscordService;
-import ci.microservice.notification.discord.service.DiscordServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping("/notification/discord")
+@RequestMapping("/discord")
 public class DiscordController {
 
     @Autowired
-    DiscordServiceImpl discordService;
+    BotComponent botComponent;
 
-    @CrossOrigin(origins="http://localhost:4200")
     @GetMapping("/test")
-    public String sayGreeting() {
-        return "Hello Mouna";
+    public String addDataTest() {
+        return "o";
     }
 
-
-    @GetMapping("/build/add")
+    @GetMapping("/ttt")
     @ResponseBody
-    public String addBuild(@RequestParam String id) {
-        DiscordServiceImpl.notify(id);
-
-        return "ID: " + id;
+    public String getFoos(@RequestParam String buildId) {
+        botComponent.notify(buildId);
+        return "hi";
     }
+
 
 
 }
-

@@ -1,33 +1,25 @@
 package ci.microservice.notification.discord.models;
 
-import lombok.*;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 
-@Getter
-@ToString
-@Builder
-@Document(collection = "discordrequest")
 public class DiscordRequest {
     @Id
-    String idRequest;
+    public String id;
 
-    public DiscordRequest(String idRequest) {
-        this.idRequest = idRequest;
+
+    public DiscordRequest(String id) {
+        this.id = id;
     }
 
- /*   @Setter
-    String name;
-    @Setter
-    String userName;
-    @Setter
-    String phone;*/
-
-
-    public String getidRequest(){
-        return this.idRequest;
+    public String getId(){
+        return this.id;
     }
 
+    public String getChannelId(){
+        return id.split("-")[0];
+    }
+
+    public String getBuildId(){
+        return id.split("-")[1];
+    }
 }
-
-
